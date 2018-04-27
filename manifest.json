@@ -1,6 +1,6 @@
 {
 	"name": "Billers App",
-	"short_name": "Ionic",
+	"short_name": "BilersApp",
 	"start_url": "index.html",
 	"display": "standalone",
 	"icons": [
