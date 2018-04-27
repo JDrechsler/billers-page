@@ -1,6 +1,6 @@
 {
 	"name": "Billers App",
-	"short_name": "BilersApp",
+	"short_name": "Billers App",
 	"start_url": "index.html",
 	"display": "standalone",
 	"icons": [
