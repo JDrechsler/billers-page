@@ -16,4 +16,3 @@ Performance is a little worse than projects using webpack/vue-loader.
 
 <img src="https://i.imgur.com/ryGDrdI.png" width='300'/>
 <img src="https://i.imgur.com/wjZvrJs.png" width='1000'/>
-
