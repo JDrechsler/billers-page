@@ -1,0 +1,17 @@
+body {
+    overscroll-behavior-y: contain;
+}
+
+hr {
+    height: 4px;
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.q-layout-page {
+    margin: 10px;
+}
+
+/* .q-modal-layout-content.col.scroll {
+    background-color: red;
+} */
