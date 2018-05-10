@@ -6,7 +6,7 @@
 			<q-toolbar-title>
 				Settings
 			</q-toolbar-title>
-			Version 0.1
+			Version 0.2
 		</q-toolbar>
 
 		<div class="layout-padding">
