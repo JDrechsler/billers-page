@@ -88,10 +88,10 @@ export default {
 
 							navigator.serviceWorker.ready.then(function (registration) {
 								registration.showNotification('Notification test was successful', {
-									body: '$1',
-									icon: 'http://icons.iconarchive.com/icons/dapino/money/256/Purse-icon.png',
-									vibrate: [200, 100, 200, 100, 200, 100, 200],
-									badge: 'http://icons.iconarchive.com/icons/dapino/money/256/Purse-icon.png'
+									body: '$1'
+									// icon: 'http://icons.iconarchive.com/icons/dapino/money/256/Purse-icon.png',
+									// vibrate: [200, 100, 200, 100, 200, 100, 200],
+									// badge: 'http://icons.iconarchive.com/icons/dapino/money/256/Purse-icon.png'
 									// image: 'http://www.leveragedloan.com/wp-content/uploads/2018/01/netflix-logo.png'
 								});
 							});
