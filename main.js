@@ -1,5 +1,5 @@
 import { store } from "./store.js";
-import { billsRefSorted } from "./db.js";
+import { billsRefSorted } from "./firestore.js";
 
 document.onselectstart = function () { return false; } // ie
 document.onmousedown = function () { return false; } // others
