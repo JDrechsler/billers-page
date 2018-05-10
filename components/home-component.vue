@@ -31,6 +31,7 @@
 				<q-page-sticky position="bottom-right" :offset="[18, 18]">
 					<q-fab icon="add" direction="up" color="primary">
 						<q-fab-action @click="addModalOpened=true" color="blue" class="white" icon="add"></q-fab-action>
+						<q-fab-action @click="settingsModalOpened=true" color="blue" class="white" icon="settings"></q-fab-action>
 						<q-fab-action @click="overviewModalOpened=true" color="blue" class="white" icon="info"></q-fab-action>
 					</q-fab>
 				</q-page-sticky>
@@ -45,6 +46,10 @@
 
 				<q-modal v-if="overviewModalOpened" v-model="overviewModalOpened" :content-css="{minWidth: '80vw', minHeight: '80vh'}">
 					<overview-comp></overview-comp>
+				</q-modal>
+
+				<q-modal v-if="settingsModalOpened" v-model="settingsModalOpened" :content-css="{minWidth: '80vw', minHeight: '80vh'}">
+					<settings-comp></settings-comp>
 				</q-modal>
 
 			</q-page>
@@ -62,6 +67,7 @@ export default {
 			addModalOpened: false,
 			editModalOpened: false,
 			overviewModalOpened: false,
+			settingsModalOpened: false,
 			search: "string",
 			/**@type {Bill} */
 			selectedBill: {}
