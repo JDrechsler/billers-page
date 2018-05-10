@@ -6,6 +6,7 @@
 					Bill Tracker - {{getDateToday}}
 				</q-toolbar-title>
 			</q-toolbar>
+
 		</q-layout-header>
 
 		<q-page-container class='scroll-content'>
@@ -148,13 +149,5 @@ export default {
   will-change: scroll-position;
   contain: size style layout;
   background: linear-gradient(45deg, #6cfd9f, #6887ff);
-}
-
-.q-alert {
-  min-width: 250px;
-  max-width: 900px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 </style>
