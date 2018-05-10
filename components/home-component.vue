@@ -14,13 +14,13 @@
 				<div v-if='bills.length > 0'>
 
 					<div v-for="bill in unpaidBills" :key="bill.id">
-						<card-comp :propbill='bill' @contextmenu.native.prevent="editSelectedBill(bill)"></card-comp>
+						<card-comp :propbill='bill' @contextmenu.native.prevent="editSelectedBill(bill)" @click.native="editSelectedBill(bill)"></card-comp>
 					</div>
 
 					<hr>
 
 					<div v-for="bill in paidBills" :key="bill.id">
-						<card-comp :propbill='bill' @contextmenu.native.prevent="editSelectedBill(bill)"></card-comp>
+						<card-comp :propbill='bill' @contextmenu.native.prevent="editSelectedBill(bill)" @click.native="editSelectedBill(bill)"></card-comp>
 					</div>
 
 				</div>
