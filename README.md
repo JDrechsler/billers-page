@@ -4,7 +4,7 @@ This is just an experiment to play around with ESModules in the browser and vue 
 
 No build step was required.
 
-Performance is a little worse than projects using webpack/vue-loader.
+>Performance is a little worse than projects using webpack/vue-loader since the vue files get compiled at runtime. To achieve better performance compile and bundle the project with webpack/vue-loader.
 
 #### In this project:
 - Vuejs using .vue files and single file components
