@@ -59,8 +59,8 @@ export default {
 	},
 	computed: {
 		dueIcon() {
-			if (!this.propbill.isPaid && this.propbill.dayOfMonth < date.getDate()) return 'error_outline'
-			if (!this.propbill.isPaid && this.propbill.dayOfMonth === date.getDate()) return 'notifications_none'
+			if (!this.propbill.isPaid && this.propbill.dayOfMonth < date.getDate()) return 'priority_high' //report, error_outline
+			if (!this.propbill.isPaid && this.propbill.dayOfMonth === date.getDate()) return 'error_outline'
 			if (!this.propbill.isPaid && this.propbill.dayOfMonth === (date.getDate() + 1)) return 'notifications_none'
 			if (!this.propbill.isPaid && this.propbill.dayOfMonth === (date.getDate() + 2)) return 'notifications_none'
 			if (!this.propbill.isPaid && this.propbill.dayOfMonth === (date.getDate() + 3)) return 'notifications_none'
